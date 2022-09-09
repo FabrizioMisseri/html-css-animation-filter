@@ -114,6 +114,17 @@
 /* sol ese 6 */
 
 
+/* sol ese 7 */
+.ex-7-img{
+    transition: .5s linear;
+}
+
+.ex-7-img:hover{
+    width: 100%;
+    height: 100%;
+    filter: blur(10rem);
+}
+/* sol ese 7 */
 
 
 
