@@ -173,7 +173,7 @@
 }
 
 /* ese 10 */
-.ex-10-icon {
+.ex-10-icon{
     animation: trottola .2s linear infinite;
 }
 @keyframes trottola {
@@ -190,6 +190,39 @@
 .ex-11-icon {
     font-size: 60px;
 }
+
+/* ese 11 */
+.ex-11-icon:hover{
+    animation: giro 1.5s linear;
+}
+@keyframes giro {
+    0% {
+        transform: rotate(0);
+    }
+
+    25%{
+        transform: rotate(90deg);
+    }
+
+    50%{
+        transform: rotate(180deg);
+    }
+
+    75%{
+        transform: rotate(270deg);
+    }
+
+    100%{
+        transform: rotate(0);
+    }
+}
+/* ese 11 */
+
+
+
+
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
