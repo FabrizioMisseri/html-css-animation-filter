@@ -171,6 +171,22 @@
 .ex-10-icon {
     font-size: 60px;
 }
+
+/* ese 10 */
+.ex-10-icon {
+    animation: trottola .2s linear infinite;
+}
+@keyframes trottola {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+/* ese 10 */
+
+
+
+
+
 .ex-11-icon {
     font-size: 60px;
 }
