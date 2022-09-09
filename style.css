@@ -4,17 +4,37 @@
     border: 1px solid red;
 }
 /* soluzione ex 1 */
-.ex-1-square:hover{
-    background-color: red;
+.ex-1-square{
     transition: 0.5s linear;
 }
+
+.ex-1-square:hover{
+    background-color: red;
+}
 /* /soluzione ex 1 */
+
+
+
 
 .ex-2-square {
     width: 100px;
     height: 100px;
     background: red;
 }
+
+/* soluzion ex 2 */
+.ex-2-square:active{
+    width: 90%;
+}
+
+.ex-2-square{
+    transition: 1s linear;
+}
+/* /soluzion ex 2 */
+
+
+
+
 .ex-3-square {
     width: 100px;
     height: 100px;
